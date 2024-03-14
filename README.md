@@ -6,21 +6,14 @@
 
 #### [X] Big O Notation
 
-Good Code
-
--   readable
--   scalable
-    -   memory: space complexity
-    -   speed: time complexity
-
 ## Resources
 
-### Big O
+# 1 Big O
 
 -   [Big O Cheat Sheet](https://zerotomastery.io/cheatsheets/big-o-cheat-sheet/?utm_source=udemy&utm_medium=coursecontent)
 -   [Know Thy Complexities!](https://www.bigocheatsheet.com/)
 
-## Problem solving approach
+# 2 Problem solving approach
 
 1. Understand the Problem
 
@@ -32,7 +25,7 @@ Good Code
 
 5. Look Back and Refactor
 
-# Problem Solving Patterns
+# 3 Problem Solving Patterns
 
 ## Frequency Counters Pattern
 
@@ -55,7 +48,7 @@ Good Code
 -   dividing a data set into smaller chunks then repeating a process with a subset of data
 -   Can extremely decrease time complexity
 
-# Recursion
+# 4. Recursion
 
 -   [Call stack](https://developer.mozilla.org/en-US/docs/Glossary/Call_stack)
 
@@ -76,17 +69,15 @@ Good Code
 
 ## Pure Recursion
 
--
+# 5. Searching Algorithm
 
-# Linear Search
-
-## Linear Search Big O
+## 5.1 Linear Search Big O
 
 -   Best: O(1)
 -   Worst: O(n)
 -   Average: O(n)
 
-## Binary Search
+## 5.2 Binary Search
 
 -   much faster form of search
 -   rather than eliminating one element at a time, we eliminating half of the remaining elements at a time
@@ -106,11 +97,11 @@ Good Code
     -   if value = middle return index
 -   If never find the value, return -1
 
-# Sorting Algorithm
+# 6. Sorting Algorithm
 
 -   [visual algo](https://visualgo.net/en)
 
-## Bubble Sort
+## 6.1 Bubble Sort
 
 -   idea: largest values bubbles up to the top
 
@@ -120,11 +111,11 @@ Good Code
     -   nested loop: j = 0; j < i -1; j++
     -   if arr[j] > arr[j+1] => swap
 
-## Selection Sort
+## 6.2 Selection Sort
 
-## Insertion Sort
+## 6.3 Insertion Sort
 
-## Merge Sort
+## 6.4 Merge Sort
 
 ### Merging two array
 
@@ -155,3 +146,29 @@ Good Code
     - average: O(nlogn)
     - worst: O(nlogn)
     - space complexity: O(n)
+
+## 6.5 Quick Sort
+
+## 6.6 Radix Sort
+
+# 7. Data Structure
+
+## 7.1 Single Linked Lists
+
+## 7.2 Double Linked Lists
+
+## 7.3 Stacks and Queues
+
+## 7.4 Binary Search Trees
+
+## 7.5 TRee Traversal
+
+## 7.6 Binary Heaps
+
+## 7.7 Graph
+
+## 7.8 Graph Traversal
+
+# 8 Dijkstra's Algorithm
+
+# 9 Dynamic programming

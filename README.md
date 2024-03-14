@@ -155,6 +155,23 @@
 
 ## 7.1 Single Linked Lists
 
+### what is a linked list
+
+-   data structure contains a head, tail and length property
+-   Linked lists consists of nodes, and each nodes has a value, a pointer to another node or null
+
+### Linked Lists vs Array
+
+| Lists                                 | Arrays                                  |
+| ------------------------------------- | --------------------------------------- |
+| No indexes                            | indexes in order                        |
+| connect via nodes with a next pointer | Insertion and deletion can be expensive |
+| Random access is not allowed          | Access specific index quickly           |
+
+### Implement insertion, removal, and traversal methods
+
+-   [Data Structures in JavaScript: Singly Linked Lists](https://blog.bitsrc.io/data-structures-in-javascript-single-linked-lists-7df02408ebbc)
+
 ## 7.2 Double Linked Lists
 
 ## 7.3 Stacks and Queues
@@ -172,3 +189,8 @@
 # 8 Dijkstra's Algorithm
 
 # 9 Dynamic programming
+
+# Other Resources
+
+-   [Cấu trúc dữ liệu & giải thuật](https://cautrucdulieugiaithuat.wordpress.com/)
+-   [Blind 75](https://www.techinterviewhandbook.org/best-practice-questions/)

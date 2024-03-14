@@ -54,3 +54,68 @@ Good Code
 
 -   dividing a data set into smaller chunks then repeating a process with a subset of data
 -   Can extremely decrease time complexity
+
+# Recursion
+
+-   [Call stack](https://developer.mozilla.org/en-US/docs/Glossary/Call_stack)
+
+## Two part of recursion
+
+-   Base case: condition to end the recursion
+-   Different input
+
+## Recursion pitfalls
+
+-   No base case
+-   Forget to return or returning the wrong thing
+-   stack overflow
+
+## Helper method recursion
+
+-   create a recursion method inside function to do recursion tasks
+
+## Pure Recursion
+
+-
+
+# Linear Search
+
+## Linear Search Big O
+
+-   Best: O(1)
+-   Worst: O(n)
+-   Average: O(n)
+
+## Binary Search
+
+-   much faster form of search
+-   rather than eliminating one element at a time, we eliminating half of the remaining elements at a time
+-   only works on sorted array
+-   idea: divide and conquer
+
+### Pseudocode
+
+-   input: sorted array, a value
+-   output: index of value in sorted array
+-   create left pointer at start
+-   create right pointer at end
+-   while left pointer right pointer
+    -   create middle pointer
+    -   if value > middle => move the left up
+    -   if value < middle => move the right down
+    -   if value = middle return index
+-   If never find the value, return -1
+
+# Sorting Algorithm
+
+-   [visual algo](https://visualgo.net/en)
+
+## Bubble Sort
+
+-   idea: largest values bubbles up to the top
+
+### Pseudocode
+
+-   start loop: i = arr.length => > 0
+    -   nested loop: j = 0; j < i -1; j++
+    -   if arr[j] > arr[j+1] => swap

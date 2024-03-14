@@ -119,3 +119,39 @@ Good Code
 -   start loop: i = arr.length => > 0
     -   nested loop: j = 0; j < i -1; j++
     -   if arr[j] > arr[j+1] => swap
+
+## Selection Sort
+
+## Insertion Sort
+
+## Merge Sort
+
+### Merging two array
+
+1. Idea
+
+-   function merging two sorted arrays
+-   this function should run in O(n+m) time and O(n+m) space and should not modify the parameters passes to it
+
+2. Pseudocode
+
+-   create empty array, take a look at smallest values in each input array
+-   While loop through all element of two array
+    -   If value in first array < value in second array, push it to the results then move on to next value in first array
+    -   If value in second array < value in first array....
+
+### mergeSort
+
+1. Idea
+
+-   Exploit the fact that array of 0 or 1 element always sorted
+-   Using recursion, mid, left, right pointers and slice to break down the input array into array with empty or one element
+-   Using merged sorted array function to merge
+
+2. Pseudocode
+
+3. Big O
+    - best: O(nlogn)
+    - average: O(nlogn)
+    - worst: O(nlogn)
+    - space complexity: O(n)

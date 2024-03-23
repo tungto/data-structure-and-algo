@@ -140,20 +140,27 @@ class SingleLinkedList {
 
 	//
 	reverse() {
-		// 1 => 2 => 3 => 4
-		// 4 => 3 => 2 =>
-		let movingNode = this.head;
-		this.head = this.tail;
-		this.tail = movingNode;
+		let cur = this.head;
+		let next = null;
+		let prev = null;
 
-		let nextNode;
-		let prevNode = null;
-		for (let i = 0; i < this.length; i++) {
-			nextNode = movingNode.next;
-			movingNode.next = prevNode;
+		while (cur.next) {
+			next = cur.next;
+			cur.next = prev;
+			prev = cur;
+			cur = next;
+		}
 
-			prevNode = movingNode;
-			movingNode = nextNode;
+		this.head = prev;
+
+		return this;
+	}
+
+	print() {
+		var arr = [];
+		var cur = this.head;
+		while (cur) {
+			arr.push(cur.val);
 		}
 	}
 }

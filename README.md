@@ -176,6 +176,29 @@
 
 ## 7.3 Stacks and Queues
 
+### What is stack
+
+-   all concept where LIFO
+-   add and remove at O(1)
+
+### Where stacks used
+
+-   Managing function invocation
+-   undo/ redo
+-   routing (history object)
+
+### Implement stacks
+
+-   using arrays
+-   using linked list
+
+### Big O of stacks
+
+-   insertion O(1)
+-   removal O(1)
+-   accession O(n)
+-   search O(n)
+
 ## 7.4 Binary Search Trees
 
 ## 7.5 TRee Traversal

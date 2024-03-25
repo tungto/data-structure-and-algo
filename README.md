@@ -213,6 +213,43 @@
 
 ## 7.4 Binary Search Trees
 
+### what is a tree
+
+-   a data structure that consists of nodes in a parent/ child relationship
+-   Lists: linear
+-   Trees: nonlinear
+
+### Tree terminology
+
+-   Root
+-   Child
+-   Parent
+-   Sibling
+-   Leaf
+-   Edge: the arrow
+
+### Uses for Trees
+
+-   HTML DOM
+-   Network routing
+-   Abstract syntax tree
+-   AI
+-   Folder in OS
+
+### Binary tree
+
+### Binary search tree
+
+-   parent have max 2 nodes
+-   every left children < parent
+-   every right children > parent
+
+### Big O of BST
+
+| avg     | worst |
+| ------- | ----- |
+| O(logn) | O(n)  |
+
 ## 7.5 TRee Traversal
 
 ## 7.6 Binary Heaps

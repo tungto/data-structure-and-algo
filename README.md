@@ -199,6 +199,18 @@
 -   accession O(n)
 -   search O(n)
 
+### Queues
+
+-   Data structure FIFO
+-   use in: background tasks, uploading resources, printing, task processing
+
+### Big O of queue
+
+-   insertion O(1)
+-   removal O(1)
+-   accession O(n)
+-   search O(n)
+
 ## 7.4 Binary Search Trees
 
 ## 7.5 TRee Traversal

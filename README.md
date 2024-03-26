@@ -260,8 +260,51 @@
 ### Depth-first Search - DFS
 
 1. InOrder
+
+-   visit the most left first, then parent node, then right, then root and to most right
+
 2. PostOrder
+   Idea
+
+-   visit all children before visit the parent nodes and the root
+-   this mean we will push the cur node to store after recursively loop through the tree
+
 3. PreOrder
+   Idea
+
+-   visit the root first
+-   then left
+-   then right
+
+    Steps - Recursively
+
+-   Create a var to store the values of nodes visited
+-   Store the root node of the BST in a variable called current
+-   Write a helper function which accepted a node
+
+    -   push the value of the node to the var that stores the values
+    -   if the node has left property, call the helper with the left property on the node
+    -   if the node has right property, call the helper with the right property on the node
+
+    ### When to use DFS - BFS
+
+    DFS and BFS time complexity are same, we need to visit all nodes once. The different is space complexity when we need to store visited node to the Queue
+
+    1. DFS
+
+    -   goal is depp => dfs reach deep more faster
+
+    2. BFS
+
+    -   goal is shallow => bfs
+
+    3. In reality
+
+    -   BFS take a lot of memory make it impractical even in case DFS is not optimal
+
+    4. DFS types
+
+    -   [When to use Preorder, Postorder, and Inorder Binary Search Tree Traversal strategies](https://stackoverflow.com/questions/9456937/when-to-use-preorder-postorder-and-inorder-binary-search-tree-traversal-strate)
 
 ## 7.6 Binary Heaps
 

@@ -252,6 +252,17 @@
 
 ## 7.5 TRee Traversal
 
+### Breath-first Search - BFS
+
+-   take advantage of Queue - FIFO
+-   visit the list and keep track of what visited
+
+### Depth-first Search - DFS
+
+1. InOrder
+2. PostOrder
+3. PreOrder
+
 ## 7.6 Binary Heaps
 
 ## 7.7 Graph

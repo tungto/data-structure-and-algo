@@ -308,6 +308,34 @@
 
 ## 7.6 Binary Heaps
 
+### Definition
+
+-   Similar BST with some different rules:
+
+    -   MaxBinaryHeap Parent nodes are > children nodes
+    -   MinBinaryHeap parent < children
+    -   for any parent index n (index start at 0)
+        -   left child is stored at 2n + 1
+        -   right child is at 2n + 2
+    -   for child index n
+        -   parent (n-1)/2
+
+    1. Max Binary Heap
+
+    -   Each parent has at most two children
+    -   parent > children
+    -   siblings can > or <, =
+    -   as compact as possible: all children node are as full as they can be and left children are filled out first
+
+    2. Min Binary Heap
+
+    -   Parent < children
+
+### Why do we need this?
+
+    -   Priority Queue
+    -   Graph Traversal
+
 ## 7.7 Graph
 
 ## 7.8 Graph Traversal

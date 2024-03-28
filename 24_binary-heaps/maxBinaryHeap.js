@@ -18,9 +18,8 @@ class MaxBinaryHeap {
 
 			if (parent >= element) break;
 
-			let temp = element;
 			this.values[idx] = parent;
-			this.values[parentIdx] = temp;
+			this.values[parentIdx] = element;
 			idx = parentIdx;
 		}
 	}

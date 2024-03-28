@@ -336,6 +336,17 @@
     -   Priority Queue
     -   Graph Traversal
 
+### Priority Queue
+
+    1. Definition
+    - a data structure where each element has a priority. Elements with higher priorities are served before elements with lower priorities
+    2. Implement Priority Queue base on binary heap
+
+### Big O of Heaps
+
+-   useful for sorting, and implement other data structures like priority queue
+-   time complexity insert and extract: O(logn)
+
 ## 7.7 Graph
 
 ## 7.8 Graph Traversal

@@ -347,9 +347,71 @@
 -   useful for sorting, and implement other data structures like priority queue
 -   time complexity insert and extract: O(logn)
 
-## 7.7 Graph
+## 7.7 Hash Table
 
-## 7.8 Graph Traversal
+-   What a hash table is
+-   Define what a hashing algorithm
+-   what make good a good hashing algorithm
+-   how collision occur in a hash table
+
+### What is hash table
+
+-   store in key-value pairs
+-   like array but not store in ordered
+-   unlike array, hash table fast for: finding, adding, removing
+-   hash table is commonly used
+
+### Hash function
+
+What make a good hash
+
+-   fast (like constant time)
+-   doesn't cluster outputs at specific indices, but distributed uniformly
+-   deterministic (same input yields same output)
+
+### Dealing with Collisions
+
+1. Separate Chaining
+
+-   at each index in our array we store values using a more sophisticated data structure (eg. an array or linked list)
+-   this allow us to store multiple key-value pairs at the same index => store more than size
+
+-   Pseudocode - set
+    -   accept key, value
+    -   hashed the key
+    -   store the key-value pair in the hash table array via separate chaining
+-   Pseudocode - get
+
+    -   accept key
+    -   hashed the key
+    -   receive the key-value pair in hash table
+        -   if the key-value pair is array - loop through the array and check for the right key
+    -   if the key isn't found, return undefined
+
+-   keys/ values methods: each value in values array should be unique
+
+2. Linear Probing
+
+-   when we find a collision, we search through the array to find the next empty slot
+-   this allow us to store single key-value at each index => store as size
+
+### Big O
+
+Average case
+
+-   Insert: O(1)
+-   Deletion: O(1)
+-   Access: O(1)
+
+### Other resources
+
+-   [hash table 1](https://www.youtube.com/watch?v=dMyhU07qcgs&ab_channel=TheBrownBox)
+
+-   [hash table 2](https://www.youtube.com/watch?v=KqMMXJNlOGA&list=PL4394wATl1l8WYu-OkoQ-FWf15Lt1u2yi&index=2&ab_channel=DataStructuresandAlgorithms)
+
+## 7.8 Graph
+
+## 7.9 Graph Traversal
 
 # 8 Dijkstra's Algorithm
 

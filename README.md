@@ -29,6 +29,7 @@
 
 ## Frequency Counters Pattern
 
+-   Related to hash table
 -   Using objects, sets to collect value/frequencies of values
 -   Can often avoid nested loop or O(n^2) operations with arrays/strings
 

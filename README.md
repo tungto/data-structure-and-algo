@@ -15,6 +15,8 @@
 
 # 2 Problem solving approach
 
+-   [problem solving](https://cs.slides.com/colt_steele/problem-solving-patterns)
+
 1. Understand the Problem
 
 2. Explore Concrete Examples
@@ -69,6 +71,8 @@
 -   create a recursion method inside function to do recursion tasks
 
 ## Pure Recursion
+
+-   don't mutate the arr
 
 # 5. Searching Algorithm
 

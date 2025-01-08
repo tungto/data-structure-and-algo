@@ -84,9 +84,9 @@
 
 ## 5.2 Binary Search
 
--   much faster form of search
+-   much faster form of search: eliminate 50% of searching time
 -   rather than eliminating one element at a time, we eliminating half of the remaining elements at a time
--   only works on sorted array
+-   only works on SORTED
 -   idea: divide and conquer
 
 ### Pseudocode
@@ -101,6 +101,20 @@
     -   if value < middle => move the right down
     -   if value = middle return index
 -   If never find the value, return -1
+
+### BIG O
+
+-   worst: O(log n)
+
+## 5.3 Naive String Search
+
+### Pseudo code
+
+-   loop over the long string
+-   loop over the short string
+-   if the char don't match, break out the inner loop
+-   if the char match, the inner loop can finish and the match found, increment the count
+-   return the count
 
 # 6. Sorting Algorithm
 

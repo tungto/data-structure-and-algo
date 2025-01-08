@@ -40,3 +40,20 @@ var strStr = function (haystack, needle) {
 
 	return -1;
 };
+
+const naiveSearch = (long, pattern) => {
+	let count = 0;
+	for (let i = 0; i < long.length; i++) {
+		for (let j = 0; j < pattern.length; j++) {
+			if (pattern[j] !== long[i + j]) break;
+			if (j === pattern.length - 1) {
+				count++;
+			}
+		}
+	}
+	console.log('count', count);
+	return count;
+};
+
+naiveSearch('leetcode', 'leetco');
+naiveSearch('lorie loled lolandklol', 'lol');

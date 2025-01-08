@@ -1,3 +1,10 @@
+/**
+ *
+ * ONLY WORKS ON SORTED ARRAY
+ * eliminate fifthy percent of searching time
+ *
+ */
+
 function binarySearch(arr, value) {
 	// add whatever parameters you deem necessary - good luck!
 	let left = 0;

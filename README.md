@@ -123,6 +123,8 @@
 ## 6.1 Bubble Sort
 
 -   idea: largest values bubbles up to the top
+-   time complexity: O(n^2)
+-   space complexity: O(1)
 
 ### Pseudocode
 
@@ -132,7 +134,36 @@
 
 ## 6.2 Selection Sort
 
+### Idea
+
+-   similar to bubble sort, but instead of first placing large values into sorted position, it places small values into sorted position
+
+### Pseudocode
+
+-   Store the first element as the smallest value
+-   Compare this item to next item in the array until find a smaller number
+-   If smaller number is found, designate that smaller number to new min number, and continue until the end of the array
+-   if min number is not the value at the initial, swap the two values
+
+### Big O
+
+-   time complexity: O(n^2)
+-   space complexity: O(1)
+
 ## 6.3 Insertion Sort
+
+### Idea
+
+### Pseudocode
+
+-   start picking the second element in the array
+-   compare the second element with the one before it and swap if necessary
+-   continue to the next element and if it is in the incorrect order, iterate through the sorted portion to place the element in the correct place
+-   repeat until the array is sorted
+
+### Big O
+
+-
 
 ## 6.4 Merge Sort
 

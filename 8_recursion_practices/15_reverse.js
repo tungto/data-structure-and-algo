@@ -8,4 +8,3 @@ function reverse() {
 
 // reverse('awesome') // 'emosewa'
 // reverse('rithmschool') // 'loohcsmhtir'
-console.log('testing');

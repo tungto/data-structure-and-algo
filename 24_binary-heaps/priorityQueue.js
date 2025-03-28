@@ -71,36 +71,4 @@ class PriorityQueue {
 	}
 }
 
-const ER = new PriorityQueue();
-
-ER.enqueue('common cold', 5);
-ER.enqueue('gunshot wound', 1);
-ER.enqueue('high fever', 4);
-ER.enqueue('broken arm', 2);
-ER.enqueue('glass in foot', 3);
-console.log(ER);
-/**
- * PriorityQueue {
-  values: [
-    Node { val: 'gunshot wound', priority: 1 },
-    Node { val: 'broken arm', priority: 2 },
-    Node { val: 'high fever', priority: 4 },
-    Node { val: 'common cold', priority: 5 },
-    Node { val: 'glass in foot', priority: 3 }
-  ]
-}
- */
-
-// console.log(ER.dequeue());
-//Node { val: 'gunshot wound', priority: 1 }
-// console.log(ER);
-/**
- * PriorityQueue {
-  values: [
-    Node { val: 'broken arm', priority: 2 },
-    Node { val: 'glass in foot', priority: 3 },
-    Node { val: 'high fever', priority: 4 },
-    Node { val: 'common cold', priority: 5 }
-  ]
-}
- */
+module.exports = { PriorityQueue };

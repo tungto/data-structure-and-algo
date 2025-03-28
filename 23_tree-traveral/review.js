@@ -57,7 +57,6 @@ class BST {
 	}
 
 	DFSHelperPreOrder(node, results) {
-		console.log('node', node.val);
 		results.push(node.val);
 		if (node.left) {
 			this.DFSHelperPreOrder(node.left, results);

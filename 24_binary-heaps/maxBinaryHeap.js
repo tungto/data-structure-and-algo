@@ -66,16 +66,4 @@ class MaxBinaryHeap {
 	}
 }
 
-const heap = new MaxBinaryHeap();
-heap.insert(41);
-heap.insert(39);
-heap.insert(33);
-heap.insert(18);
-heap.insert(27);
-heap.insert(12);
-heap.insert(55);
-console.log(heap.values);
-// insert [ 55, 39, 41, 18, 27, 12, 33 ]
-heap.extractMax();
-console.log(heap);
-// extract { values: [ 41, 39, 33, 18, 27, 12 ] }
+module.exports = { MaxBinaryHeap };

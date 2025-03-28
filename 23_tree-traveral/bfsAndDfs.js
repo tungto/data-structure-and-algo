@@ -83,8 +83,6 @@ class BinarySearchTree {
 			node.right && queue.push(node.right);
 		}
 
-		// console.log(data);
-
 		return data;
 	}
 
@@ -109,6 +107,10 @@ class BinarySearchTree {
 		return data;
 	}
 
+	/**
+	 *
+	 * @returns sorted array
+	 */
 	DFSInOrder() {
 		const data = [];
 		function traverse(node) {
